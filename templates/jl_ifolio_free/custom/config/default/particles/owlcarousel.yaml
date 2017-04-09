@@ -1,0 +1,19 @@
+enabled: '0'
+class: ''
+title: ''
+nav: disable
+dots: enable
+autoplay: disable
+autoplaySpeed: ''
+imageOverlay: enable
+items:
+  -
+    name: ''
+  -
+    image: 'gantry-media://wall.png'
+    title: ''
+    desc: ''
+    link: ''
+    linktext: ''
+    buttonclass: button-outline
+    name: wall

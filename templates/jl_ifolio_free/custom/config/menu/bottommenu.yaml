@@ -1,0 +1,18 @@
+ordering:
+  __module-0zBKj: ''
+  login: ''
+items:
+  login:
+    id: 102
+  __module-0zBKj:
+    type: particle
+    particle: module
+    title: Search
+    options:
+      particle:
+        enabled: '1'
+        module_id: '87'
+        chrome: ''
+      block:
+        extra: {  }
+    enabled: '1'

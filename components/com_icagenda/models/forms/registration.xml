@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+
+	<fieldset
+		name="default"
+		label=""
+		addfieldpath="/administrator/components/com_icagenda/models/fields"
+		>
+
+		<field
+			name="uid"
+			type="hidden"
+			label="ICAGENDA_REGISTRATION_FORM_USERID"
+			description="ICAGENDA_REGISTRATION_FORM_USERID_DESC"
+		/>
+
+		<field
+			name="name"
+			type="text"
+			label="ICAGENDA_REGISTRATION_FORM_NAME"
+			description="ICAGENDA_REGISTRATION_FORM_NAME_DESC"
+			size="30"
+			filter="username"
+			required="true"
+		/>
+
+		<field
+			name="email"
+			type="email"
+			label="ICAGENDA_REGISTRATION_FORM_EMAIL"
+			description="ICAGENDA_REGISTRATION_FORM_EMAIL_DESC"
+			size="30"
+			field="id"
+			filter="string"
+			validate="email"
+		/>
+
+		<field
+			name="email2"
+			type="email"
+			label="IC_FORM_EMAIL_CONFIRM_LBL"
+			size="30"
+			field="email"
+			filter="string"
+			message="COM_ICAGENDA_FORM_VALIDATE_FIELD_EMAIL2_MESSAGE"
+			validate="equals"
+			hint="IC_FORM_EMAIL_CONFIRM_HINT"
+		/>
+
+		<field
+			name="phone"
+			type="tel"
+			label="ICAGENDA_REGISTRATION_FORM_PHONE"
+			description="ICAGENDA_REGISTRATION_FORM_PHONE_DESC"
+			size="30"
+		/>
+
+		<field
+			name="date"
+			type="icagenda.registrationdates"
+			label="ICAGENDA_REGISTRATION_FORM_DATE"
+			description="ICAGENDA_REGISTRATION_FORM_DATE_DESC"
+		/>
+
+		<field
+			name="period"
+			type="hidden"
+		/>
+
+		<field
+			name="people"
+			type="icagenda.registrationpeople"
+			label="ICAGENDA_REGISTRATION_FORM_PEOPLE"
+			description="ICAGENDA_REGISTRATION_FORM_PEOPLE_DESC"
+		/>
+
+		<field
+			name="custom_fields"
+			type="hidden"
+		/>
+	</fieldset>
+
+	<fieldset name="extra" label="" >
+
+		<field
+			name="notes"
+			type="textarea"
+			label="ICAGENDA_REGISTRATION_FORM_NOTES"
+			description=""
+			rows="10"
+			cols="60"
+			class="row-fluid"
+			hint="ICAGENDA_REGISTRATION_FORM_NOTES_DESC"
+		/>
+
+		<field
+			name="terms"
+			type="icagenda.registrationterms"
+			label="COM_ICAGENDA_TERMS_AND_CONDITIONS"
+			id="terms"
+			required="true"
+			message="COM_ICAGENDA_TERMS_AND_CONDITIONS_NOT_CHECKED_REGISTRATION"
+		/>
+
+		<field
+			name="captcha"
+			type="captcha"
+			label="COM_ICAGENDA_CAPTCHA_LABEL"
+			validate="captcha"
+			namespace="registration"
+		/>
+	</fieldset>
+
+	<fieldset name="hidden" label="" >
+
+		<field
+			name="eventid"
+			type="hidden"
+		/>
+
+		<field
+			name="menuid"
+			type="hidden"
+		/>
+	</fieldset>
+
+	<fieldset name="control" label="" >
+
+		<field
+			name="typeReg"
+			type="hidden"
+		/>
+
+		<field
+			name="current_url"
+			type="hidden"
+		/>
+
+		<field
+			name="max_nb_of_tickets"
+			type="hidden"
+		/>
+	</fieldset>
+</form>

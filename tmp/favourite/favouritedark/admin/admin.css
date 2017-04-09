@@ -1,0 +1,105 @@
+/*
+Description: Template Admin
+*/
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../icons/font/FontAwesome/fontawesome-webfont.eot?v=3.2.1');
+  src: url('../icons/font/FontAwesome/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), 
+  url('../icons/font/FontAwesome/fontawesome-webfont.woff?v=3.2.1') format('woff'), 
+  url('../icons/font/FontAwesome/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), 
+  url('../icons/font/FontAwesome/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul#myTabTabs.nav.nav-tabs:before,
+ul#myTabTabs.nav.nav-tabs:hover:before,
+ul#myTabTabs.nav.nav-tabs a[href="#details"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-style"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-logo"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-mobile"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-suffix"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-analytics"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#assignment"]:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none !important;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  position: relative;
+  padding-right: 10px;
+  font-size: 14px;
+  color: #444;
+}
+ul#myTabTabs.nav.nav-tabs a[href="#details"]:before {
+  content: "\f109";
+}
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-style"]:before {
+  content: "\f085";
+}
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-logo"]:before {
+  content: "\f0ac";
+}
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-mobile"]:before {
+  content: "\f10a";
+}
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-suffix"]:before {
+  content: "\f00a";
+}
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-analytics"]:before {
+  content: "\f080";
+}
+ul#myTabTabs.nav.nav-tabs a[href="#assignment"]:before {
+  content: "\f0e8";
+}
+div#myTabContent .span6 {
+  margin-top: 14px;
+  margin-left: 0;
+  width: 100%;
+}
+ul#myTabTabs.nav.nav-tabs li a {
+  background-color: #ededed;
+  color: #444444;
+  border: 1px solid #ddd;
+  padding: 7px 14px;
+  line-height: 24px;
+}
+ul#myTabTabs.nav.nav-tabs li.active a,
+ul#myTabTabs.nav.nav-tabs > li a:hover {
+  background-color: #0099ff;
+  color: #fff;
+  border: 1px solid #008fee;
+}
+ul#myTabTabs.nav.nav-tabs a:hover:before,
+ul#myTabTabs.nav.nav-tabs li.active a:before {
+  color: #fff;
+}
+
+div#myTabContent .control-group hr { border-top: 1px solid #dddddd; border-bottom: 1px solid #ffffff; width: 38em; }
+div#myTabContent .control-label { width: 20em; }
+div#myTabContent textarea { width: 400px; }
+
+@media handheld, only screen and (max-width: 800px) {
+
+  ul#myTabTabs.nav.nav-tabs {
+    border: 0px none;
+  }
+  ul#myTabTabs.nav.nav-tabs > li {
+    float: none;
+  }
+  ul#myTabTabs.nav.nav-tabs li a,
+  ul#myTabTabs.nav.nav-tabs li.active a,
+  ul#myTabTabs.nav.nav-tabs > li a:hover {
+    border-radius: 4px;
+  }
+  ul#myTabTabs.nav.nav-tabs li a {
+    background-color: #fff;
+  }
+
+}

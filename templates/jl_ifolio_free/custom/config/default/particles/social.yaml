@@ -1,0 +1,27 @@
+enabled: '1'
+css:
+  class: ''
+title: ''
+target: _blank
+display: both
+items:
+  -
+    icon: 'fa fa-twitter fa-fw'
+    text: ''
+    link: 'http://www.twitter.com/joomlead'
+    name: Twitter
+  -
+    icon: 'fa fa-facebook fa-fw'
+    text: ''
+    link: 'https://www.facebook.com/profile.php?id=100002198800967'
+    name: Facebook
+  -
+    icon: 'fa fa-google-plus fa-fw'
+    text: ''
+    link: 'https://plus.google.com/104200588957483219188'
+    name: Google+
+  -
+    icon: 'fa fa-vk'
+    text: ''
+    link: 'https://vk.com/joy_alina'
+    name: Vkontakte

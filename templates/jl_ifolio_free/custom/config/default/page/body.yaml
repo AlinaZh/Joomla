@@ -1,0 +1,8 @@
+attribs:
+  id: ''
+  class: 'gantry g-ifolio-style'
+  extra: {  }
+layout:
+  sections: '0'
+body_top: "<style>\n#calendar{\npadding:0;\nmargin:0;\n}\n</style>"
+body_bottom: ''

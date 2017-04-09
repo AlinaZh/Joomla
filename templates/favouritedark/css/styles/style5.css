@@ -1,0 +1,218 @@
+/*
+
+Theme Name: Favourite Dark
+Theme URL: http://demo.favthemes.com/favouritedark/
+Description: Responsive and Customizable Joomla! Framework 
+Author: FavThemes
+Author URI: http://www.favthemes.com
+Bootstrap Authors: @mdo and @fat
+Theme Version: 1.1
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/copyleft/gpl.html
+
+*/
+
+/* STYLE 1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* TEMPLATE CSS
+---------------------------------------------------------------------------- */
+
+/* Links */
+a {
+  color: #F39BC2;
+}
+/* Navigation */
+#fav-nav .navigation .nav-pills > .active > a, 
+#fav-nav .navigation .nav-pills > li > a:hover,
+#fav-nav .navigation .nav-pills > li > a:focus {
+  background-color: #F39BC2;
+	color: #fff;
+}
+#fav-nav .navigation .nav-pills .nav-child > .active > a, 
+#fav-nav .navigation .nav-pills .nav-child > li > a:hover  {
+  color: #F39BC2;
+}
+/* Copyright */
+#fav-copyright ul.nav.menu li.active a, 
+#fav-copyright ul.nav.menu li a:hover, 
+#fav-copyright ul.nav.menu li:hover a { 
+  color: #F39BC2;  
+}
+
+/* JOOMLA! CSS  
+---------------------------------------------------------------------------- */
+
+/* Article Title */
+.page-header h2 a:hover, 
+h2.item-title a:hover { 
+	color: #F39BC2; 
+}
+/* Article Info */
+ul.dropdown-menu a:hover { 
+  color: #F39BC2; 
+  background-color: transparent;
+  background-image:none;  
+}
+/* Create Article */
+div.edit button.btn.btn-primary {
+  background-color: #F39BC2; 
+  color: #fff; 
+  border: 1px solid #f18cb9;
+}
+div.edit button.btn.btn-primary:hover {
+  background-color: #F39BC2;
+  border: 1px solid #f18cb9;
+}
+/* Buttons */
+.btn-primary { 
+  background-color: #F39BC2; 
+  border: 1px solid #f18cb9;
+  color: #ffffff;
+}
+.btn-primary:hover { 
+  background-color: #F39BC2;
+  border: 1px solid #f18cb9;
+  color: #ffffff;
+}
+/* Badge */
+.badge-info {
+background-color: #F39BC2;
+}
+/* Menu Basic */
+.moduletable ul.nav.menubasic li.current,
+div[class^="moduletable-"] ul.nav.menubasic li.current,
+div[class*=" moduletable-"] ul.nav.menubasic li.current,
+.moduletable ul.nav.menubasic li.current.active.deeper.parent,
+div[class^="moduletable-"] ul.nav.menubasic li.current.active.deeper.parent,
+div[class*=" moduletable-"] ul.nav.menubasic li.current.active.deeper.parent,
+.moduletable .menubasic li.active ul.nav-child:hover li.current.active.deeper.parent,
+div[class^="moduletable-"] .menubasic li.active ul.nav-child:hover li.current.active.deeper.parent,
+div[class*=" moduletable-"] .menubasic li.active ul.nav-child:hover li.current.active.deeper.parent {
+  background-color: #F39BC2;
+	color: #fff;
+}
+.moduletable ul.nav.menubasic li.current ul.nav-child a,
+div[class^="moduletable-"] ul.nav.menubasic li.current ul.nav-child a,
+div[class*=" moduletable-"] ul.nav.menubasic li.current ul.nav-child a {
+	color: #F39BC2;
+}
+/* Variation 2 */
+.moduletable-sfx2 h3 {
+	border-bottom: 1px solid #F39BC2;
+}
+.moduletable-sfx2 h3 i {
+	background-color: #F39BC2;
+	color: #FFF;
+}
+/* Variation 3 */
+.moduletable-sfx3 h3 {
+	border-bottom: 1px solid #F39BC2;
+}
+.moduletable-sfx3 h3 i {
+	background-color: #F39BC2;
+	color: #FFF;
+}
+/* Variation 5 */
+.moduletable-sfx5 h3 {
+	border-bottom: 1px solid #F39BC2;
+}
+.moduletable-sfx5 h3 i {
+	background-color: #F39BC2;
+	color: #FFF;
+}
+/* Variation 6 */
+.moduletable-sfx6 h3 {
+	border-bottom: 1px solid #F39BC2;
+}
+.moduletable-sfx6 h3 i {
+	background-color: #F39BC2;
+	color: #FFF;
+}
+/* Variation 7 */
+.moduletable-sfx7 {
+	color: #fff;
+	background-color: #F39BC2;
+}
+/* Variation 8 */
+.moduletable-sfx8 {
+	color: #fff;
+	background-color: #F39BC2;
+}
+.moduletable-sfx8 h3 i {
+	color: #F39BC2;
+	background-color: #fff;
+}
+/* Variation 9 */
+.moduletable-sfx9 {
+	color: #fff;
+	background-color: #F39BC2;
+}
+.moduletable-sfx9 h3 i {
+	color: #F39BC2;
+	background-color: #fff;
+}
+
+
+/* K2 CSS
+---------------------------------------------------------------------------- */
+
+/* Category Title */
+div.itemListCategory h2:before {
+  color: #F39BC2;
+}
+/* Category Item Title */
+div.catItemHeader h3.catItemTitle a:hover {
+	color: #F39BC2; 
+}
+/* Category Item Featured  */
+div.itemIsFeatured h2:before, 
+div.catItemIsFeatured h3:before, 
+div.userItemIsFeatured h3:before {
+	color: #F39BC2;
+}
+/* Latest Items Title */
+div.latestItemsCategory h2:before {
+  color: #F39BC2;
+}
+/* K2 User */
+div.k2LoginBlock fieldset.input input.button,
+div.k2UserBlock form input.button.ubLogout {
+	background-color: #F39BC2; 
+  color: #fff; 
+  border: 1px solid #f18cb9;
+}
+div.k2LoginBlock fieldset.input input.button:hover,
+div.k2UserBlock form input.button.ubLogout:hover {
+	background-color: #F39BC2;
+  border: 1px solid #f18cb9;
+}
+/* User Profile */
+.k2AccountPage button.button.validate {
+	background-color: #F39BC2; 
+  color: #fff; 
+  border: 1px solid #f18cb9;
+}
+.k2AccountPage button.button.validate:hover { 
+  background-color: #F39BC2;
+  border: 1px solid #f18cb9;
+}
+
+/* EXTENSIONS
+---------------------------------------------------------------------------- */
+
+/* FavGlyph */
+.favglyph-intro #favglyph i {
+	color: #F39BC2!important;
+}
+.favglyph-bottom #favglyph-icon {
+	border-color: #F39BC2!important;
+}
+.favglyph-bottom #favglyph i {
+	background-color: #F39BC2!important;
+}
+/* FavEffects */
+.faveffects-footer #faveffects i {
+	color: #F39BC2!important;
+}
